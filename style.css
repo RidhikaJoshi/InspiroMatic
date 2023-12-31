@@ -9,6 +9,15 @@ body {
     font-family: 'Playfair Display', serif;
     /* color:whitesmoke; */
 }
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2em;
+    color:whitesmoke;
+    text-decoration: underline;
+
+}
 #container
 {
     width: 70em;
@@ -29,7 +38,7 @@ body {
    
 }
 #container button{
-    width: 10em;
+    width: 50%;
     height: 3em;
     background-color:#404040;
     border: none;
