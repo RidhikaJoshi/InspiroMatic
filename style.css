@@ -35,6 +35,8 @@ h1{
     font-weight: bold;
     text-align: center;
     padding-top: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
    
 }
 #container button{
