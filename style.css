@@ -1,34 +1,39 @@
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 *
 {
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-family: 'Playfair Display', serif;
+    /* color:whitesmoke; */
+}
 #container
 {
     width: 70em;
     height: 22em;
-    background-color: aquamarine;
+    background-color: rgba(230, 230, 230, 0.6);
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
     border: 2px solid black;
 }
 #container p{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 2em;
    
 }
 #container button{
     width: 10em;
     height: 3em;
-    background-color: #4CAF50;
+    background-color:#404040;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     font-size: 1.5em;
     font-weight: bold;
@@ -36,4 +41,10 @@
     top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#container button:hover{
+    background-color: #737373;
+    color:#0A0A0A;
+    cursor: pointer;
 }

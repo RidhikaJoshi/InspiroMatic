@@ -7,5 +7,10 @@ console.log(quotes[n].quote);
 
 button.onclick = () => {
 	let n = Math.floor(Math.random() * quotes.length);
-	text.innerHTML = quotes[n].quote;
+	text.innerHTML = `" ${quotes[n].quote}" `;
 };
+// Auto- refreshes quotes in every 20 seconds
+setInterval(() => {
+	let n = Math.floor(Math.random() * quotes.length);
+	text.innerHTML = quotes[n].quote;
+}, 20000);
