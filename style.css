@@ -33,18 +33,21 @@ h1{
 @media (max-width: 1200px) {
     #container {
         width: 60em;
+        height: 25em;
     }
 }
 
 @media (max-width: 992px) {
     #container {
         width: 50em;
+        height: 28em;
     }
 }
 
 @media (max-width: 768px) {
     #container {
         width: 40em;
+        height: 30em;
     }
 }
 
